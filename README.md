@@ -1,4 +1,4 @@
-# Elite Crypto Dashboard 
+# Crypto Dashboard 
 
 A feature-rich, real-time cryptocurrency tracking dashboard built with Python and Tkinter. This application connects to the Binance API to provide live price data, advanced candlestick charting, and transactional portfolio management, all wrapped in a sleek, custom-built, borderless user interface.
  
