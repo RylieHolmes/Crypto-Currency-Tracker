@@ -44,20 +44,9 @@ Follow these steps to get the application running on your local machine.
 
 ### 1. Prerequisites
 
-Make sure you have **Python 3.7+** installed on your system. You can check this by running:```bash
-python --version
-```
+Make sure you have **Python 3.7+** installed on your system. You can check this by running python --version
 
-### 2. Clone the Repository
-
-Clone this project to your local machine:
-```bash
-git clone https://github.com/your-username/elite-crypto-dashboard.git
-cd elite-crypto-dashboard
-```
-*(Replace `your-username` and `elite-crypto-dashboard` with your actual GitHub username and repository name.)*
-
-### 3. Install Dependencies
+### 2. Install Dependencies
 
 All required third-party libraries are listed in the `requirements.txt` file. Install them using pip:
 ```bash
