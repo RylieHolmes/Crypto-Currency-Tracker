@@ -1,10 +1,10 @@
-# Elite Crypto Dashboard 🚀
+# Elite Crypto Dashboard 
 
 A feature-rich, real-time cryptocurrency tracking dashboard built with Python and Tkinter. This application connects to the Binance API to provide live price data, advanced candlestick charting, and transactional portfolio management, all wrapped in a sleek, custom-built, borderless user interface.
  
 ---
 
-## ✨ Key Features
+##  Key Features
 
 *   **Real-Time Price Tracking**: Utilizes WebSockets for a high-frequency, low-latency stream of cryptocurrency price data directly from Binance.
 *   **Fully Custom UI**: A modern, borderless window with a custom-built title bar and a professional dark theme, created entirely with Python's Tkinter and the Pillow library.
@@ -24,7 +24,7 @@ A feature-rich, real-time cryptocurrency tracking dashboard built with Python an
 
 ---
 
-## ⚙️ Technology Stack
+##  Technology Stack
 
 *   **Core**: Python 3
 *   **GUI**: Tkinter (with `ttk` for modern widgets)
@@ -38,7 +38,7 @@ A feature-rich, real-time cryptocurrency tracking dashboard built with Python an
 
 ---
 
-## 🛠️ Setup and Installation
+##  Setup and Installation
 
 Follow these steps to get the application running on your local machine.
 
@@ -56,7 +56,7 @@ pip install -r requirements.txt
 
 ---
 
-## 📖 Usage Guide
+##  Usage Guide
 
 1.  **Connect**: Click the **"Connect"** button on the left panel to start the live data stream from Binance.
 2.  **Add Coins**:
