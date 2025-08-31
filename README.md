@@ -63,11 +63,6 @@ All required third-party libraries are listed in the `requirements.txt` file. In
 ```bash
 pip install -r requirements.txt```
 
-### 4. Run the Application
-
-Execute the main script to launch the dashboard:
-```bash
-python elite_crypto_app.py
 ```
 
 ---
