@@ -61,7 +61,7 @@ cd elite-crypto-dashboard
 
 All required third-party libraries are listed in the `requirements.txt` file. Install them using pip:
 ```bash
-pip install -r requirements.txt```
+pip install -r requirements.txt
 
 ```
 
