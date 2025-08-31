@@ -1,0 +1,7 @@
+requests
+plyer
+matplotlib
+mplfinance
+pandas
+Pillow
+websocket-client
