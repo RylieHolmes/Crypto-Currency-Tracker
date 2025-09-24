@@ -1,10 +1,40 @@
-# Crypto Dashboard 
+<div align="center">
 
-A feature-rich, real-time cryptocurrency tracking dashboard built with Python and Tkinter. This application connects to the Binance API to provide live price data, advanced candlestick charting, and transactional portfolio management, all wrapped in a sleek, custom-built, borderless user interface.
- 
+# 📈 Crypto Dashboard 💰
+
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/GUI-Tkinter-2C5F2D?style=for-the-badge" alt="Tkinter">
+  <img src="https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=matplotlib&logoColor=white" alt="Matplotlib">
+  <img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas">
+  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License: MIT">
+</p>
+
+A feature-rich, real-time cryptocurrency tracking dashboard built with Python and Tkinter. This application provides live price data, advanced charting, and portfolio management with a sleek, custom-built UI.
+
+</div>
+
+<details>
+  <summary><strong>Table of Contents</strong></summary>
+  <ol>
+    <li><a href="#-about-the-project">About The Project</a></li>
+    <li><a href="#-key-features">Key Features</a></li>
+    <li><a href="#-technology-stack">Technology Stack</a></li>
+    <li><a href="#-setup-and-installation">Setup and Installation</a></li>
+    <li><a href="#-usage-guide">Usage Guide</a></li>
+    <li><a href="#-license">License</a></li>
+  </ol>
+</details>
+
 ---
 
-##  Key Features
+## 📖 About The Project
+
+This application connects to the Binance API to provide a comprehensive crypto tracking experience. It utilizes WebSockets for live price data, `mplfinance` for advanced candlestick charting, and transactional portfolio management, all wrapped in a sleek, custom-built, borderless user interface created from the ground up.
+
+---
+
+## ✨ Key Features
 
 *   **Real-Time Price Tracking**: Utilizes WebSockets for a high-frequency, low-latency stream of cryptocurrency price data directly from Binance.
 *   **Fully Custom UI**: A modern, borderless window with a custom-built title bar and a professional dark theme, created entirely with Python's Tkinter and the Pillow library.
@@ -24,7 +54,7 @@ A feature-rich, real-time cryptocurrency tracking dashboard built with Python an
 
 ---
 
-##  Technology Stack
+## 🛠️ Technology Stack
 
 *   **Core**: Python 3
 *   **GUI**: Tkinter (with `ttk` for modern widgets)
@@ -38,25 +68,28 @@ A feature-rich, real-time cryptocurrency tracking dashboard built with Python an
 
 ---
 
-##  Setup and Installation
+## 🚀 Setup and Installation
 
 Follow these steps to get the application running on your local machine.
 
 ### 1. Prerequisites
 
-Make sure you have **Python 3.7+** installed on your system. You can check this by running python --version
+Make sure you have **Python 3.7+** installed on your system. You can check this by running:
+```sh
+python --version
+```
+
 
 ### 2. Install Dependencies
 
 All required third-party libraries are listed in the `requirements.txt` file. Install them using pip:
-```bash
+```sh
 pip install -r requirements.txt
-
 ```
 
 ---
 
-##  Usage Guide
+## 🧭 Usage Guide
 
 1.  **Connect**: Click the **"Connect"** button on the left panel to start the live data stream from Binance.
 2.  **Add Coins**:
@@ -70,3 +103,9 @@ pip install -r requirements.txt
     *   Navigate to the **Portfolio** tab.
     *   Enter the details of a trade (Symbol, Type, Quantity, Price) and click **"Log Tx"** to record it.
     *   Your holdings, average cost, and P/L will be calculated and displayed automatically.
+
+---
+
+## 📄 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
