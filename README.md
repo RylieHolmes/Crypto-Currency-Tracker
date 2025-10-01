@@ -108,4 +108,4 @@ pip install -r requirements.txt
 
 ## 📄 License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+No License. avalible for public use and modification.
