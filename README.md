@@ -108,4 +108,4 @@ pip install -r requirements.txt
 
 ## 📄 License
 
-No License. avalible for public use and modification.
+No License. Available for public use and modification.
